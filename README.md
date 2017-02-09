@@ -18,4 +18,5 @@
 - Bootstrap -> formatting
 
 ## Refactor To Do's:
+- Add full_name method for users
 - Refactor user assocation integration test in post_spec
