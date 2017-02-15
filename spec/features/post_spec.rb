@@ -20,8 +20,8 @@ describe 'navigate' do
     end
 
     it 'has a list of posts' do
-      post1 = Post.build_stubbed(:post)
-      post2 = Post.build_stubbed(:second_post)
+      post1 = FactoryGirl.build_stubbed(:post)
+      post2 = FactoryGirl.build_stubbed(:second_post)
       visit posts_path
       expect(page).to have_content(/Rationale|content/)
     end
