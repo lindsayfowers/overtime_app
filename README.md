@@ -21,5 +21,8 @@
 - X Icons from glyphicon 
 - X Update the styles for forms
 
-## Refactor To Do's:
-- X Refactor posts/_form for admin user with status
+## To Do's:
+- Integrate validation for phone attr in User:
+  # No spaces or dashes
+  # all characters have to be a number
+  # exactly 10 characters
